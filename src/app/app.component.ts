@@ -10,7 +10,6 @@ export class AppComponent {
   clickMessage = "";
   Inp = "";
   onClickMe(value: string) {
-    console.log(value);
     this.Inp += value;
   }
 }
