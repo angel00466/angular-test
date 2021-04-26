@@ -1,0 +1,24 @@
+<body>
+  <hello name="{{ name }}"></hello>
+  <div>
+    <table>
+      <tr>
+        <td colspan=4> <input type="number" style="width:80%;" value="{{Inp}}">
+      </tr>
+      <tr style="">
+        <td><button class='numbtn' (click)="onClickMe('7')" value="7">7</button></td>
+        <td><button class='numbtn' (click)="onClickMe('7')" value="7">7</button></td>
+        <td><button class='numbtn' (click)="onClickMe('7')" value="7">7</button></td>
+      </tr>
+      <button #box class='numbtn' (click)="onClickMe(box.value)" value="7">7</button>
+      <button #box class='numbtn' (click)="onClickMe(box.value)" value="8">8</button>
+      <button #box class='numbtn' (click)="onClickMe(box.value)" value="9">9</button><br>
+      <button #box class='numbtn' (click)="onClickMe(box.value)" value="4">4</button>
+      <button #box class='numbtn' (click)="onClickMe(box.value)" value="5">5</button>
+      <button #box class='numbtn' (click)="onClickMe(box.value)" value="6">6</button><br>
+      <button #box class='numbtn' (click)="onClickMe(box.value)" value="1">1</button>
+      <button #box class='numbtn' (click)="onClickMe(box.value)" value="2">2</button>
+      <button #box class='numbtn' (click)="onClickMe(box.value)" value="3">3</button>
+    </table>
+  </div>
+</body>

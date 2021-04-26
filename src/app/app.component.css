@@ -1,0 +1,18 @@
+p {
+  font-family: Lato;
+}
+html {
+  height: 100%;
+}
+body {
+  
+  width: 100%;
+  min-height: 100%;
+  background-color: aqua;
+}
+.numbtn {
+  
+  background-color: green;
+  width: 80px;
+  height: 80px;
+}
